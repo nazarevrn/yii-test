@@ -48,8 +48,27 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            /*
+            'suffix' => '.html',
             'rules' => [
+                // [
+                //    'pattern'=>'/',
+                //    'route' => 'site/index',
+                //    'suffix' => '',
+                // ],
+                [
+                    'pattern'=>'/',
+                    'route' => 'test/test',
+                    'suffix' => '',
+                 ],
+                [
+                    'pattern'=>'about',
+                    'route' => 'site/about',
+                    'suffix' => '.html',
+                 ],
+                '<action:\w+>' => 'site/<action>',
             ],
+            */
         ],
         
     ],
